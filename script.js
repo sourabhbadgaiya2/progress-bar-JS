@@ -35,7 +35,7 @@ function updadte() {
 
   const actives = document.querySelectorAll('.active');
 
-  progress.style.width = ((actives.length - 0.5) / circle.length) * 100 + '%';
+  progress.style.width = ((actives.length - 1) / circle.length) * 124 + '%';
 
   if (currentActive === 1) {
     prev.disabled = true;
